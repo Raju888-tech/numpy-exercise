@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: jupyterlite/action@v1
+      - uses: jupyterlite/action-build@v1
         with:
           content: ./content
